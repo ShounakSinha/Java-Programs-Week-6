@@ -18,4 +18,12 @@ class Cat extends Animal {
     }
 }
 
+public class DynamicDispatchDemo {
+    public static void main(String[] args) {
+        Animal myAnimal1 = new Dog();  // Upcasting
+        Animal myAnimal2 = new Cat();  // Upcasting
 
+        myAnimal1.makeSound();  // Outputs: Dog barks
+        myAnimal2.makeSound();  // Outputs: Cat meows
+    }
+}
