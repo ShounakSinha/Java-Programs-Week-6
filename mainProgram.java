@@ -6,7 +6,7 @@ public class MainProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Rectangle area calculation
+        
         System.out.println("Enter the length of the rectangle:");
         double length = scanner.nextDouble();
         System.out.println("Enter the breadth of the rectangle:");
@@ -15,7 +15,7 @@ public class MainProgram {
         Rectangle rectangle = new Rectangle();
         System.out.println("Area of the rectangle: " + rectangle.calculateArea(length, breadth));
 
-        // Circle area calculation
+        
         System.out.println("\nEnter the radius of the circle:");
         double radius = scanner.nextDouble();
 
